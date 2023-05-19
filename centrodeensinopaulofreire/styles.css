@@ -10877,7 +10877,7 @@ html {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: #212529;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -10982,12 +10982,12 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: #212529;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: #4d5154;
   text-decoration: none;
 }
 
@@ -11014,7 +11014,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("assets/img/bg-masthead.png");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("img/imagemcentro.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11092,15 +11092,16 @@ footer.footer .social-link:hover {
             clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
+    background-color: rgba(17, 17, 17, 0.2);
     -webkit-clip-path: inset(2rem);
             clip-path: inset(2rem);
   }
+  
 }
 
 .service-icon {
   background-color: #fff;
-  color: #1D809F;
+  color: #000;
   height: 7rem;
   width: 7rem;
   display: block;
