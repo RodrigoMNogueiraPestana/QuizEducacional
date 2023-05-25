@@ -14,7 +14,7 @@
 
 <h1>Guia do Projeto</h1>
 
-*Programas de Gerenciamento:
++ Programas de Gerenciamento:
 <table>
   <tr>
     <td>XAMPP</td>
