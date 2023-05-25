@@ -1,4 +1,4 @@
-<h1>Educational Quiz</h1>
+<h1>Educational Quiz 📚</h1>
 
 > Status: Development ⚠️
 
