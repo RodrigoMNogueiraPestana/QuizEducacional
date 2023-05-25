@@ -15,7 +15,7 @@
             <img src="img/undraw_exams_re_4ios.svg" alt="img-aluno">
         </div>
         <div class="form">
-            <form action="#">
+            <form action="testeloginaluno.php" method="POST">
                 <div class="form-header">
                     <div class="title">
                         <h1>Cadastre-se</h1>
@@ -23,10 +23,6 @@
                 </div>
 
                 <div class="input-group">
-                    <div class="input-box">
-                        <label for="name">Nome Completo</label>
-                        <input id="name" type="text" name="name" placeholder="Digite seu nome" required>
-                    </div>
                     <div class="input-box">
                         <label for="email">Seu melhor email</label>
                         <input id="email" type="email" name="email" placeholder="Digite seu email" required>
@@ -36,9 +32,8 @@
                         <input id="senha" type="password" name="senha" placeholder="Digite uma senha forte" required>
                     </div>
                 </div>
-
                 <div class="continua-btn">
-                    <button><a href="#">Continuar</a></button>
+                    <button type="submit" name="submit" id="submit">Entrar</button>
                 </div>
             </form>
         </div>

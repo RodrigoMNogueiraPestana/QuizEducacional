@@ -177,8 +177,11 @@ body{
     padding: 0.65rem;
     border-radius: 5px;
     cursor: pointer;
-    align-items: center;
+    font-size: 1rem;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
 }
+
 
 .continua-btn button:hover{
    background-color: #6b63fff1;

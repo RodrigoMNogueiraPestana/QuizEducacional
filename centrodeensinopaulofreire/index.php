@@ -92,7 +92,7 @@
             <div class="row gx-0">
 
                 <div class="col-lg-6">
-                    <a class="portfolio-item" href="professor/cadastroprofessor.html">
+                    <a class="portfolio-item" href="professor/cadastroprofessor.php">
                         <div class="caption">
                             <div class="caption-content">
                                 <div class="h2">Os Professores</div>
@@ -104,7 +104,7 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <a class="portfolio-item" href="aluno/cadastroaluno.html">
+                    <a class="portfolio-item" href="aluno/cadastroaluno.php">
                         <div class="caption">
                             <div class="caption-content">
                                 <div class="h2">Os Alunos</div>

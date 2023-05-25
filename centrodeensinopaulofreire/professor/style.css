@@ -177,18 +177,13 @@ body{
     padding: 0.65rem;
     border-radius: 5px;
     cursor: pointer;
-    align-items: center;
+    font-size: 1rem;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
 }
 
 .continua-btn button:hover{
    background-color: #6b63fff1;
-}
-
-.continua-btn button a{
-    text-decoration: none;
-    font-size: 0.93rem;
-    font-weight: 500;
-    color: #fff;
 }
 
     .form-group {

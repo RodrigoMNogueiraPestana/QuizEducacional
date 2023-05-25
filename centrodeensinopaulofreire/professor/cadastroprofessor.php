@@ -1,3 +1,24 @@
+<?php
+    if(isset($_POST['submit']))
+    {
+        //print_r('Nome: ' . $_POST['name']);
+        //print_r('<br>');
+        //print_r('Email: ' . $_POST['email']);
+        //print_r('<br>');
+        //print_r('Senha: ' . $_POST['senha']);
+        //print_r('<br>');
+        //print_r('Materia: ' . $_POST['materia']);
+
+        include_once('configuracao.php');
+
+        $nome = $_POST['name'];
+        $email = $_POST['email'];
+        $senha = $_POST['senha'];
+        $materia = $_POST['materia'];
+
+        $result = mysqli_query($conexao, "INSERT INTO tblprofessores(nome,email,senha,materiaministrada) VALUES ('$nome','$email','$senha','$materia')");
+    }
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -15,7 +36,7 @@
             </div>
 
             <div class="form">
-            <form action="#">
+            <form action="cadastroprofessor.php" method="POST">
                 <div class="form-header">
                     <div class="title">
                         <h1>Cadastre-se</h1>
@@ -53,9 +74,8 @@
                         <option value="Artes">Artes</option>
                     </select>
                 </div>
-
                 <div class="continua-btn">
-                    <button><a href="#">Continuar</a></button>
+                    <button type="submit" name="submit" id="submit">Cadastrar</button>
                 </div>
             </form>
         </div>
