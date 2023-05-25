@@ -1,6 +1,6 @@
 <h1>Educational Quiz 📚</h1>
 
-> Status: Development ⚠️
+> Status: Em Desenvolvimento! ⚠️
 
 ### O projeto Quiz Educacional trata-se de uma iniciativa criada no Laboratório de Transformação Digital da Universidade Estácio de Sá. A criação deste projeto e seu desenvolvimento têm como objetivo criar uma ferramenta que possa auxiliar estudantes a resolver questões do ENEM e, dessa forma, possibilitar sua autoavaliação por meio de acertos e erros.
 
