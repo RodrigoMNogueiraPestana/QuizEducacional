@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CE Paulo Freire</title>
-    <link rel="icon" type="image/x-icon" href="assets/imgfavicon/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="img/imgfavicon/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Simple line icons-->
@@ -13,7 +13,7 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
 
-        <link rel="stylesheet" href="stylesaluno.css">
+        <link rel="stylesheet" href="aluno.css">
 </head>
 <body id="page-top">
     <!-- Navigation-->
@@ -85,44 +85,100 @@
     <section class="content-section" id="portfolio">
         <div class="container px-4 px-lg-5">
             <div class="content-section-heading text-center">
-                <h3 class="text-secondary mb-0">Cadastre-se!</h3>
-                <h2 class="mb-5">Professores e Alunos</h2>
+                <h3 class="text-secondary mb-0">Matérias</h3>
+                <h2 class="mb-5">De Português a Inglês !</h2>
             </div>
             <div class="row gx-0">
 
                 <div class="col-lg-6">
-                    <a class="portfolio-item" href="professor/cadastroprofessor.php">
+                    <a class="portfolio-item" href="#">
                         <div class="caption">
                             <div class="caption-content">
-                                <div class="h2">Os Professores</div>
+                                <div class="h2">Português</div>
                                 <p class="mb-0">Aqui vai um texto.</p>
                             </div>
                         </div>
-                        <img class="img-fluid" src="professor/img/imgcadastroprofessor.png" alt="..." />
+                        <img class="img-fluid" src="img/Português.png" alt="..." />
                     </a>
                 </div>
-
                 <div class="col-lg-6">
-                    <a class="portfolio-item" href="aluno/cadastroaluno.php">
+                    <a class="portfolio-item" href="#">
                         <div class="caption">
                             <div class="caption-content">
-                                <div class="h2">Os Alunos</div>
+                                <div class="h2">Espanhol</div>
                                 <p class="mb-0">Aqui vai um texto também.</p>
                             </div>
                         </div>
-                        <img class="img-fluid" src="aluno/img/imgcadastroaluno.png" alt="..." />
+                        <img class="img-fluid" src="img/Espanhol.png" alt="...">
                     </a>
                 </div>
-
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="#">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">Inglês</div>
+                                <p class="mb-0">Aqui vai um texto também.</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/Inglês.png" alt="...">
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="#">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">Química</div>
+                                <p class="mb-0">Aqui vai um texto também.</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/Química.png" alt="...">
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="#">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">Física</div>
+                                <p class="mb-0">Aqui vai um texto também.</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/Física.png" alt="...">
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="#">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">Matemática</div>
+                                <p class="mb-0">Aqui vai um texto também.</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/Matemática.png" alt="...">
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="#">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">História</div>
+                                <p class="mb-0">Aqui vai um texto também.</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/História.png" alt="...">
+                    </a>
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item" href="#">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <div class="h2">Geografia</div>
+                                <p class="mb-0">Aqui vai um texto também.</p>
+                            </div>
+                        </div>
+                        <img class="img-fluid" src="img/Geografia.png" alt="...">
+                    </a>
+                </div>
             </div>
-        </div>
-    </section>
-    <!-- Call to Action-->
-    <section class="content-section bg-secondary text-white">
-        <div class="container px-4 px-lg-5 text-center">
-            <h2 class="mb-4">Aluno ou Professor ?</h2>
-            <a class="btn btn-xl btn-light me-4" href="#portfolio">Sou Professor!</a>
-            <a class="btn btn-xl btn-dark" href="#portfolio">Aluno Aqui!</a>
         </div>
     </section>
     <!-- Talvez um mapa da Escola-->
@@ -134,20 +190,7 @@
     <!--Footer-->
     <footer class="footer text-center" id="contact">
         <div class="container px-4 px-lg-5">
-            <ul class="list-inline mb-5">
-                <li class="list-inline-item">
-                    <a class="social-link rounded-circle text-white mr-3" href="https://www.google.com.br/maps/place/CE+Paulo+Freire/@-2.5020614,-44.2260607,17z/data=!3m1!4b1!4m6!3m5!1s0x7f6923b448c67d3:0x1d11cae6e95c8cdf!8m2!3d-2.5020668!4d-44.2234858!16s%2Fg%2F11f541wyw7">
-                        <i>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
-                            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
-                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                            </svg>
-                        </i>
-                    </a>    
-                </li>
-            </ul>
-            <p href="#contact" class="text-muted small mb-0">CE Paulo Freire &copy; Site Escolar 2023</p>
-            
+            <p href="#contact" class="text-muted small mb-0">CE Paulo Freire &copy; Site Escolar 2023</p>    
         </div>
     </footer>
     <!-- Scroll to Top Button-->

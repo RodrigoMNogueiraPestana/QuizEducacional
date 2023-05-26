@@ -220,7 +220,7 @@ strong {
 }
 
 small, .small {
-  font-size: 0.875em;
+  font-size: 1.35em;
 }
 
 mark, .mark {
@@ -11014,7 +11014,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("img/imagemcentroaluno.png");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("img/imgcentroaluno.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11023,6 +11023,7 @@ footer.footer .social-link:hover {
   font-size: 4rem;
   margin: 0;
   padding: 0;
+  color: white;
 }
 @media (min-width: 992px) {
   .masthead {
