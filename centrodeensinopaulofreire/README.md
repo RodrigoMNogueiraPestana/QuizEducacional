@@ -26,3 +26,20 @@
   </tr>
 </table>
 
++ Ferramentas de desenvolvimento web:
+<table>
+  <tr>
+    <td>HTML</td>
+    <td>CSS</td>
+    <td>Bootstrap</td>
+    <td>PHP</td>
+  </tr>
+  <tr>
+    <td>5.2</td>
+    <td>3</td>
+    <td>5.3</td>
+    <td>8.2.4</td>
+  </tr>
+</table>
+
+
