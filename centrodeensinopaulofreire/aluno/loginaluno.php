@@ -18,7 +18,7 @@
             <form action="testeloginaluno.php" method="POST">
                 <div class="form-header">
                     <div class="title">
-                        <h1>Cadastre-se</h1>
+                        <h1>Acesse seu ambiente</h1>
                     </div>
                 </div>
 

@@ -58,6 +58,9 @@
                     <button type="submit" name="submit" id="submit">Cadastrar</button>
                 </div>
             </form>
+            <div class="continua-btn">
+                <a href="loginaluno.php"><button type="submit" name="submit" id="submit">Já tenho uma conta</button></a>
+            </div>
         </div>
     </div>
 </body>
