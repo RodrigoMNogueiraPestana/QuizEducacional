@@ -1,4 +1,5 @@
 <?php
+    session_start();
     //print_r($_REQUEST);
     if(isset($_POST['submit']) && !empty(($_POST['email'])) && !empty(($_POST['senha'])) && !empty(($_POST['materia'])))
     {
@@ -23,11 +24,17 @@
 
         if(mysqli_num_rows($result) < 1)
         {
+            unset($_SESSION['email']);
+            unset($_SESSION['senha']);
+            unset($_SESSION['materia']);
             header('Location: loginprofessor.php');
             //print_r("Não Existe");
         }
         else
         {
+            $_SESSION['email'] = $email;
+            $_SESSION['senha'] = $senha;
+            $_SESSION['materia'] = $materia;
             header('Location: ambienteprof.php');
             //print_r("Existe");
         }

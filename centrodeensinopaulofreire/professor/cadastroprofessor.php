@@ -17,6 +17,8 @@
         $materia = $_POST['materia'];
 
         $result = mysqli_query($conexao, "INSERT INTO tblprofessores(nome,email,senha,materiaministrada) VALUES ('$nome','$email','$senha','$materia')");
+
+        header('Location: loginprofessor.php');
     }
 ?>
 <!DOCTYPE html>

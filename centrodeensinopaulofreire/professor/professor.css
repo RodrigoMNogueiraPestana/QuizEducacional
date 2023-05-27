@@ -220,7 +220,7 @@ strong {
 }
 
 small, .small {
-  font-size: 0.875em;
+  font-size: 1.35em;
 }
 
 mark, .mark {
@@ -835,6 +835,7 @@ progress {
 .g-0,
 .gx-0 {
   --bs-gutter-x: 0;
+  margin-left: 32%;
 }
 
 .g-0,
@@ -11014,7 +11015,7 @@ footer.footer .social-link:hover {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("img/imagemcentro.png");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("img/imagemcentroprof.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

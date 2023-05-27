@@ -1,3 +1,15 @@
+<?php
+    session_start();
+    //print_r($_SESSION);
+
+    if((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true))
+    {
+        unset($_SESSION['email']);
+        unset($_SESSION['senha']);
+        header('Location: loginaluno.php');
+    }
+    $logado = $_SESSION['email'];
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -26,12 +38,16 @@
             <li class="sidebar-nav-item"><a href="#materias">Matérias</a></li>
             <li class="sidebar-nav-item"><a href="#services">Objetivos</a></li>
             <li class="sidebar-nav-item"><a href="#contact">Contato</a></li>
+            <li class="sidebar-nav-item"><a href="sairaluno.php">Sair</a></li>
         </ul>
     </nav>
     <!-- Header-->
     <header class="masthead d-flex align-items-center" id="principal">
         <div class="container px-4 px-lg-5 text-center">
             <h1 class="mb-1">CE Paulo Freire</h1>
+            <?php
+                echo "<h2><u>$logado</u></h2>"
+            ?>
             <h3 class="mb-5"><em>Meu ambiente !</em></h3>
         </div>
     </header>

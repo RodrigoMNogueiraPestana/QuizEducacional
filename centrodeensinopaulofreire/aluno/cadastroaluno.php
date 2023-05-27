@@ -14,6 +14,8 @@
         
 
         $resultado = mysqli_query($conexao, "INSERT INTO tblalunos(nome,email,senha) VALUES ('$nome','$email','$senha')");
+
+        header('Location: loginaluno.php');
     }
 ?>
 <!DOCTYPE html>
