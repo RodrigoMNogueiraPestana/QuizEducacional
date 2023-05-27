@@ -17,22 +17,22 @@
 </head>
 <body id="page-top">
     <!-- Navigation-->
-    <a class="menu-toggle rounded" href=""><i class="fas fa-bars"></i></a>
+    <a class="menu-toggle rounded" href="#menu"><i class="fas fa-bars"></i></a>
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
-            <li class="sidebar-brand"><a href="#page-top">Menu de Navegação</a></li>
-            <li class="sidebar-nav-item"><a href="#page-top">Ínicio</a></li>
+            <li class="sidebar-brand"><a href="#principal">Menu de Navegação</a></li>
+            <li class="sidebar-nav-item"><a href="#principal">Ínicio</a></li>
             <li class="sidebar-nav-item"><a href="#about">Sobre</a></li>
+            <li class="sidebar-nav-item"><a href="#materias">Matérias</a></li>
             <li class="sidebar-nav-item"><a href="#services">Objetivos</a></li>
             <li class="sidebar-nav-item"><a href="#contact">Contato</a></li>
         </ul>
     </nav>
     <!-- Header-->
-    <header class="masthead d-flex align-items-center">
+    <header class="masthead d-flex align-items-center" id="principal">
         <div class="container px-4 px-lg-5 text-center">
             <h1 class="mb-1">CE Paulo Freire</h1>
             <h3 class="mb-5"><em>Meu ambiente !</em></h3>
-            <a class="btn btn-dark btn-xl" href="#about">Descubra</a>
         </div>
     </header>
     <!-- About-->
@@ -40,11 +40,10 @@
         <div class="container px-4 px-lg-5 text-center">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-lg-10">
-                    <h2>Ferramenta feita para testar seus conhecimentos.</h2>
+                    <h2>Se a educação sozinha não transforma a sociedade, sem ela tampouco a sociedade muda.</h2>
                     <p class="lead mb-5">
-                        Acesse o menu do lado direito, e teste você mesmo.
+                        Acesse o menu do lado direito para ter uma melhor navegação.
                     </p>
-                    <a class="btn btn-dark btn-xl" href="#services">Saiba mais</a>
                 </div>
             </div>
         </div>
@@ -82,8 +81,8 @@
         </div>
     </section>
     <!-- Portfolio-->
-    <section class="content-section" id="portfolio">
-        <div class="container px-4 px-lg-5">
+    <section class="content-section">
+        <div class="container px-4 px-lg-5" id="materias">
             <div class="content-section-heading text-center">
                 <h3 class="text-secondary mb-0">Matérias</h3>
                 <h2 class="mb-5">De Português a Inglês !</h2>
