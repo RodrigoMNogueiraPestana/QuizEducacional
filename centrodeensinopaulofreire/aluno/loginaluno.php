@@ -7,7 +7,7 @@
     <title>Login do Aluno</title>
     <link rel="shortcut icon" href="img/imgfavicon/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylealuno.css">
 </head>
 <body>
     <div class="container">
