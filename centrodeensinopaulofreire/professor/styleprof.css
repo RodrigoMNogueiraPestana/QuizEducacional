@@ -240,3 +240,201 @@ body{
             align-items: center;
         }
     }
+
+    @media screen and (max-width: 1020px){
+        .form-image{
+            display: none;
+        }
+        .container{
+            width: 50%;
+            height: auto;
+        }
+        .form{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            align-self: center;
+            
+
+        }
+        .form-header{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+        }
+        .input-group{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            align-items: center;
+            height: 17rem;
+        }
+    
+    }
+
+    @media screen and (max-width: 850px){
+
+        .form-header h1::after{
+            display: none;
+        }
+        .form-image{
+            display: none; 
+        }
+        .container{
+            width: 50%;
+            height: auto;
+        }
+        .form{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            align-self: center;
+            
+
+        }
+        .form-header{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+        }
+        .input-group{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            align-items: center;
+            height: 17rem;
+        }
+    
+    }
+
+    @media screen and (max-width: 570px){
+        .form-image{
+            display: none;
+        }
+        .container{
+            width: 50%;
+            height: auto;
+        }
+        .form{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            align-self: center;
+            
+
+        }
+        .form-header{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+        }
+        .input-group{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            align-items: center;
+            height: 17rem;
+        }
+    
+    }
+
+    @media screen and (max-width: 515px){
+        .form-image{
+            display: none;
+        }
+        .container{
+            width: 50%;
+            height: auto;
+        }
+        .form{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            align-self: center;
+            height: 100%;
+
+        }
+        .form-header{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+        }
+        .input-group{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            align-items: center;
+            
+        }
+    
+    }
+
+    @media screen and (max-width: 439px){
+        .form-image{
+            display: none;
+        }
+        .container{
+            width: 50%;
+            height: auto;
+        }
+        .form{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            align-self: center;
+            height: 100%;
+
+        }
+        .form-header{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+        }
+        .input-group{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            align-items: center;
+            
+        }
+    
+    }
+
+    @media screen and (max-width: 442px){
+        .form-image{
+            display: none;
+        }
+        .container{
+            width: 50%;
+            height: auto;
+        }
+        .form{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            align-self: center;
+            height: 100%;
+            background: rgba(181,181,248,1);
+        }
+        .form-header{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+        }
+        .input-group{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            align-items: center;   
+        }
+        .input-box{
+            width: 20rem;
+        }
+    
+    }
