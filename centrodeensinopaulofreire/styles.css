@@ -642,6 +642,11 @@ progress {
 }
 
 @media (min-width: 576px) {
+  .mb-4{
+    text-decoration: none;
+  }
+}
+@media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
   }
