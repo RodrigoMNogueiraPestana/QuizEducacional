@@ -15,7 +15,7 @@
         //print_r('<br>');
         //print_r('Materia Ministrada: ' . $materia);
 
-        $sql = "SELECT * FROM tblprofessores WHERE email = '$email' and senha = $senha and materiaministrada = '$materia'";
+        $sql = "SELECT * FROM tblprofessores WHERE email = '$email' and materiaministrada = '$materia' and senha = '$senha'";
 
         $result = $conexao->query($sql); //Essa conexão foi realizada dentro do mesmo aqrquivo (professor).
 
@@ -25,16 +25,16 @@
         if(mysqli_num_rows($result) < 1)
         {
             unset($_SESSION['email']);
-            unset($_SESSION['senha']);
             unset($_SESSION['materia']);
+            unset($_SESSION['senha']);
             header('Location: loginprofessor.php');
             //print_r("Não Existe");
         }
         else
         {
             $_SESSION['email'] = $email;
-            $_SESSION['senha'] = $senha;
             $_SESSION['materia'] = $materia;
+            $_SESSION['senha'] = $senha;
             header('Location: ambienteprof.php');
             //print_r("Existe");
         }
