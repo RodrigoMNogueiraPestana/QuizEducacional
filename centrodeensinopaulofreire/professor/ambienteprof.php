@@ -9,7 +9,8 @@
         unset($_SESSION['materia']);
         header('Location: loginprofessor.php');
     }
-    $logado = $_SESSION['email'];
+    $log = $_SESSION['email'];
+    $materia= $_SESSION['materia'];
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -47,7 +48,7 @@
         <div class="container px-4 px-lg-5 text-center">
             <h1 class="mb-1">CE Paulo Freire</h1>
             <?php
-                echo "<h2><u>$logado</u></h2>"
+                echo "<h2><u>$log</u></h2>"
             ?>
             <h3 class="mb-5"><em>Projeto estudantil !</em></h3>
         </div>
@@ -98,7 +99,11 @@
     <section class="content-section" id="portfolio">
         <div class="container px-4 px-lg-5">
             <div class="content-section-heading text-center">
-                <h3 class="text-secondary mb-0">Matéria</h3>
+                <h3 class="text-secondary mb-0">
+                    <?php
+                        echo "<h2><u>$materia</u></h2>"
+                    ?>
+                </h3>
                 <h2 class="mb-5">...</h2>
             </div>
             <div class="row gx-0">

@@ -106,7 +106,7 @@
             <div class="row gx-0">
 
                 <div class="col-lg-6">
-                    <a class="portfolio-item" href="#">
+                    <a class="portfolio-item" href="quizportugues.html">
                         <div class="caption">
                             <div class="caption-content">
                                 <div class="h2">Português</div>
